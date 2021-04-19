@@ -1,9 +1,10 @@
 language: generic
-sudo: required
+dist: alpine
+os: linux
 services:
   - docker
 
-berfore_install:
+before_install:
   - docker build -t ruslaniv/docker-react -f Dockerfile.dev .
 
 script:
