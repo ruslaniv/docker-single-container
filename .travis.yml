@@ -1,5 +1,5 @@
 language: generic
-dist: alpine
+dist: focal
 os: linux
 services:
   - docker
